@@ -1,0 +1,87 @@
+body{
+    background: #202124;
+    color: white;
+    button{
+        color: white;
+    }
+}
+
+.meiogoogle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MeioGoogle{
+    .button{
+        background: #54575e;
+        border-radius: 5px;
+        height: 50px;
+        width: 150px;
+    }
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cabecalho{
+    button{
+        border:none;
+        background:none}
+        img{
+            height: 30px;
+            width: 30px;
+        }
+        display: flex;
+        justify-content: flex-end;
+}
+
+.perfil{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.FotoGoogle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 5rem;
+}
+
+.FotoCompartilhar{
+        display: flex;
+        justify-content: flex-end;
+}
+
+.Rodape{
+    button{
+        border:none;
+        background:none
+    }
+    background-color: #101112;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+input{
+    background-color: gray;
+    width: 450px;
+    height: 30px;
+    border-radius: 35px;
+}
+
+main{
+    display: flex;
+    align-items: end;
+}
