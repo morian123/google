@@ -21,10 +21,10 @@ body{
         height: 50px;
         width: 150px;
     }
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 
 .cabecalho{
