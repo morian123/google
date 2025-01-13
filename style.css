@@ -1,4 +1,4 @@
-html, body{
+body{
     background: #202124;
     color: white;
     width: 100%;
@@ -8,16 +8,36 @@ html, body{
     }
 }
 
+
 .meiogoogle{
-    input{
-        border: none;
-        width: 300px;
-        height: 30px;
-        border-radius: 35px;
-        outline: none; /* Remove o contorno ao focar */
-        box-sizing: border-box; /* Inclui bordas e preenchimentos no tamanho total */
-    }
+    margin-top: 200px;
+    width: 300px;
+    z-index: 1;
+  
+    border-radius: 17px;
     background-color: white;
+    height: 40px;
+    position: absolute;
+}
+.valor{
+    margin-right:160px ;
+    width: 460px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    left: 78px;
+    z-index: 999;
+ }
+
+
+.Ajeitar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 
@@ -75,6 +95,10 @@ html, body{
     right: 0; /* Alinha à direita */
 }
 
+.parteMeio{
+    text-align: center;
+}
+
 
 
 footer {
@@ -85,3 +109,7 @@ footer {
 
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
