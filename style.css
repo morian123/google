@@ -8,12 +8,17 @@ body{
     }
 }
 
+html{
+    text-align: center;
+}
+main{
+    margin-top: 5rem;
+}
 
 .meiogoogle{
     margin-top: 200px;
     width: 300px;
     z-index: 1;
-  
     border-radius: 17px;
     background-color: white;
     height: 40px;
@@ -22,14 +27,13 @@ body{
 .valor{
     margin-right:160px ;
     width: 460px;
-
     display: flex;
     align-items: center;
     justify-content: space-around;
     position: relative;
     left: 78px;
     z-index: 999;
- }
+}
 
 
 .Ajeitar{
@@ -89,16 +93,26 @@ body{
         background:none
     }
     background-color: #101112;
-        position: absolute; /* Posiciona a div de forma absoluta */
+    position: absolute; /* Posiciona a div de forma absoluta */
     bottom: 0; /* Posiciona a div na parte inferior do contêiner */
     left: 0; /* Alinha à esquerda */
     right: 0; /* Alinha à direita */
 }
 
-.parteMeio{
-    text-align: center;
+
+.PrimeiroRodape,.SegundoRodape{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: absolute;
+    position: relative;
+    left: 30px;
 }
 
+h5{
+    display: flex;
+    align-items: start;
+}
 
 
 footer {
@@ -106,8 +120,8 @@ footer {
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
-
 }
+
 
 a{
     text-decoration: none;
