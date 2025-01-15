@@ -28,10 +28,47 @@ main{
     background-color: white;
     height: 40px;
     position: absolute;
-    text-align: center;
 
 }
 
+
+.divInput{
+    background-color: white;
+    border-radius: 50rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 7px 14px;
+    align-items: end;
+    input{
+        border: none;
+        width: 90%;
+        outline: none;
+        font-size: 16px;
+    }
+
+}
+
+
+.border{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+
+
+.itens{
+    display: flex;
+    gap: 10px;
+}
+
+.parteMeio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 
 .valor{
@@ -67,10 +104,14 @@ main{
         height: 50px;
         width: 150px;
     }
-    text-align: center;
-    input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    }
+.MeioDoGoogle{
+    width: 570px;
+    height: 200px;
 }
 
 
@@ -101,17 +142,17 @@ main{
 }
 
 
-.Rodape{
+footer{
     button{
         border:none;
         background:none
     }
     background-color: #101112;
-    position: absolute; /* Posiciona a div de forma absoluta */
+    position: fixed; /* Posiciona a div de forma absoluta */
     bottom: 0; /* Posiciona a div na parte inferior do contêiner */
     left: 0; /* Alinha à esquerda */
     right: 0; /* Alinha à direita */
-    width: 100%; /* O contêiner ocupará 100% da largura da tela */
+    width: 100%;
     padding: 10px; /* Adiciona espaçamento interno */
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
@@ -126,9 +167,15 @@ main{
     left: 30px;
 }
 
+.PrimeiroRodape a{
+    font-weight: 400;
+}
+
+
 .SegundoRodape{
     max-width: 100%; /* Limita a largura ao tamanho da tela */
     margin: 20px; /* Centraliza o contêiner */
+    padding-right: 50px;
 }
 
 
@@ -138,12 +185,7 @@ h5{
 }
 
 
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-}
+
 
 
 a{
