@@ -10,7 +10,12 @@ body{
 
 html{
     text-align: center;
+    width: 100%; /* O contêiner ocupará 100% da largura da tela */
+    padding: 10px; /* Adiciona espaçamento interno */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
 }
+
+
 main{
     margin-top: 5rem;
 }
@@ -23,7 +28,12 @@ main{
     background-color: white;
     height: 40px;
     position: absolute;
+    text-align: center;
+
 }
+
+
+
 .valor{
     margin-right:160px ;
     width: 460px;
@@ -58,6 +68,9 @@ main{
         width: 150px;
     }
     text-align: center;
+    input{
+
+    }
 }
 
 
@@ -71,6 +84,7 @@ main{
         }
         display: flex;
         justify-content: flex-end;
+        gap: 2rem;
 }
 
 .perfil{
@@ -97,6 +111,9 @@ main{
     bottom: 0; /* Posiciona a div na parte inferior do contêiner */
     left: 0; /* Alinha à esquerda */
     right: 0; /* Alinha à direita */
+    width: 100%; /* O contêiner ocupará 100% da largura da tela */
+    padding: 10px; /* Adiciona espaçamento interno */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
 }
 
 
@@ -108,6 +125,12 @@ main{
     position: relative;
     left: 30px;
 }
+
+.SegundoRodape{
+    max-width: 100%; /* Limita a largura ao tamanho da tela */
+    margin: 20px; /* Centraliza o contêiner */
+}
+
 
 h5{
     display: flex;
